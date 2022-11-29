@@ -1,12 +1,12 @@
-import HomePage from './page/Home/HomePage'
+import HomePage from './pages/Home/HomePage'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Footer from './components/Utlity/Footer';
 import NavebarPage from './components/Utlity/NavebarLogin'
-import { LoginPage } from './page/Auth/LoginPage';
-import { RegisterPage } from './page/Auth/RegisterPage';
-import { AllCategoryPage } from './page/AllCategoryPage';
-import { AllBrandPage } from './page/AllBrandPage';
-import { ProductsShopePage } from './page/Products/ProductsShopePage';
+import { LoginPage } from './pages/Auth/LoginPage';
+import { RegisterPage } from './pages/Auth/RegisterPage';
+import { AllCategoryPage } from './pages/AllCategoryPage';
+import { AllBrandPage } from './pages/AllBrandPage';
+import { ProductsShopePage } from './pages/Products/ProductsShopePage';
 function App() {
   return (
     <div className="font text-center" >
